@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.table-medal-first {
+  max-width: 900px;
+  margin: auto;
+}
+
+.table-medal-gender {
+  max-width: 900px;
+  margin: 50px;
+  /* justify-content: space-around; */
+}
+ 
+.gender-blocks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin:30px 20px;
+}
+
+.gold {
+  background-color: gold;
+}
+.silver {
+  background-color: silver;
+}
+.bronze {
+  background-color: rgb(124, 80, 9);
+}

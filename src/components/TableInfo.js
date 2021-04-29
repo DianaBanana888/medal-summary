@@ -1,28 +1,31 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 
-function SportMedalsOverviewTable(sport) {
+function SportMedalsOverviewTable(sport, name) {
   return (
-    <Table className="table-medal-first" striped bordered hover>
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Golden</th>
-          <th>Silver</th>
-          <th>Bronze</th>
-          <th>Total</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>{sport.Medals.n_RankTotal}</td>
-          <td>{sport.Medals.n_Gold}</td>
-          <td>{sport.Medals.n_Silver}</td>
-          <td>{sport.Medals.n_Bronze}</td>
-          <td>{sport.Medals.n_Total}</td>
-        </tr>
-      </tbody>
-    </Table>
+    <div className="table-medal-first">
+      <p>{name}</p>
+      <Table striped bordered hover>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th className="gold">Golden</th>
+            <th className="silver">Silver</th>
+            <th className="bronze">Bronze</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{sport.Medals.n_RankTotal}</td>
+            <td>{sport.Medals.n_Gold}</td>
+            <td>{sport.Medals.n_Silver}</td>
+            <td>{sport.Medals.n_Bronze}</td>
+            <td>{sport.Medals.n_Total}</td>
+          </tr>
+        </tbody>
+      </Table>
+    </div>
   )
 }
 
@@ -40,15 +43,15 @@ function SportEventMedalsTable(eventToMedalsData, name) {
   })
 
   return (
-    <>
+    <div className="table-medal-gender">
       <p>{name}</p>
-      <Table Table className="table-medal-gender" striped bordered hover >
+      <Table striped bordered hover >
         <thead>
           <tr>
             <th>Event</th>
-            <th>Golden</th>
-            <th>Silver</th>
-            <th>Bronze</th>
+            <th className="gold">Golden</th>
+            <th className="silver">Silver</th>
+            <th className="bronze">Bronze</th>
           </tr>
         </thead>
 
@@ -63,7 +66,7 @@ function SportEventMedalsTable(eventToMedalsData, name) {
           ))}
         </tbody>
       </Table >
-    </>
+    </div>
   )
 }
 
@@ -97,12 +100,12 @@ export default function TableInfo({ sport }) {
   return (
     <>
       <h3>{sport.Sport.c_Name}</h3>
-      Medal table
-      {SportMedalsOverviewTable(sport)}
+      {SportMedalsOverviewTable(sport, "Medal table")}
 
-
-      {SportEventMedalsTable(eventToMedalsMen, "Men's events")}
-      {SportEventMedalsTable(eventToMedalsWomen, "Women's events")}
+      <div className="gender-blocks">
+        {SportEventMedalsTable(eventToMedalsMen, "Men's events")}
+        {SportEventMedalsTable(eventToMedalsWomen, "Women's events")}
+      </div>
     </>
   )
 }
