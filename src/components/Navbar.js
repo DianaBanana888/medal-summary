@@ -16,7 +16,7 @@ export default function Navbar() {
           <Link to="/">NOC</Link>
         </Nav.Item>
         <Nav.Item>
-          <Link to="/detailing">Detailing</Link>
+          <Link to="/detailed">Detailed</Link>
         </Nav.Item>
       </Nav>
     </>

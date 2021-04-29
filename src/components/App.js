@@ -7,7 +7,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Navbar from './Navbar';
-import Detailing from '../pages/Detailing';
+import Detailed from '../pages/Detailed';
 import NOC from '../pages/NOC';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Route exact path="/">
           <NOC />
         </Route>
-        <Route exact path="/detailing">
-          <Detailing />
+        <Route exact path="/detailed">
+          <Detailed />
         </Route>
       </Switch>
     </BrowserRouter>

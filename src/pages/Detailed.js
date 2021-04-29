@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { info } from '../jsonInfo';
+import info from '../jsonInfo';
 import Button from 'react-bootstrap/Button';
 import TableInfo from '../components/TableInfo';
 
-export default function Detailing() {
+export default function Detailed() {
   const [eachSport, setEachSport] = useState(null);
   const sportList = info.SportList;
   console.log(`sportList`, sportList)

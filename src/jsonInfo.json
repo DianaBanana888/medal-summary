@@ -1,4 +1,4 @@
-const info = {
+{
   "NOCMedals": {
     "NOC": {
       "n_ID": 1,
@@ -13,9 +13,7 @@ const info = {
       "n_Total": 24
     }
   },
-
   "SportList": [
-
     {
       "Sport": {
         "n_ID": 103,
@@ -33,8 +31,6 @@ const info = {
         "n_RankTotal": 1,
         "n_RankSortTotal": 1
       },
-
-
       "GoldMedalList": [
         {
           "Participant": {
@@ -56,8 +52,6 @@ const info = {
           },
           "TeamMembers": null
         },
-
-
         {
           "Participant": {
             "n_PersonID": 162414,
@@ -504,9 +498,6 @@ const info = {
         }
       ]
     },
-
-
-
     {
       "Sport": {
         "n_ID": 302,
@@ -551,5 +542,3 @@ const info = {
     }
   ]
 }
-
-module.exports = { info }
