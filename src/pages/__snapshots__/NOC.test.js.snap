@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NOC correctly 1`] = `
+<div
+  className="table-medal-first"
+>
+  <p>
+    NOC Table
+  </p>
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          NOC Team
+        </th>
+        <th
+          className="gold"
+        >
+          Golden
+        </th>
+        <th
+          className="silver"
+        >
+          Silver
+        </th>
+        <th
+          className="bronze"
+        >
+          Bronze
+        </th>
+        <th>
+          Total
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Netherlands
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          24
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

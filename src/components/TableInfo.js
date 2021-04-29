@@ -57,7 +57,7 @@ function SportEventMedalsTable(eventToMedalsData, name) {
 
         <tbody>
           {sportEventNames.map((sportEventName) => (
-            <tr>
+            <tr key={name + sportEventName}>
               <td>{sportEventName}</td>
               <td>{eventToMedalsData[sportEventName]["Gold"]}</td>
               <td>{eventToMedalsData[sportEventName]["Silver"]}</td>

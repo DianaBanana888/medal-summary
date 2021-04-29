@@ -6,11 +6,9 @@ import TableInfo from '../components/TableInfo';
 export default function Detailed() {
   const [eachSport, setEachSport] = useState(null);
   const sportList = info.SportList;
-  console.log(`sportList`, sportList)
 
   const onClickSubmitHandler = (sport) => {
     setEachSport({ sport })
-    console.log(`eachSport`, eachSport)
   }
 
   return (

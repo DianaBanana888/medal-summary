@@ -45,7 +45,6 @@
 .table-medal-gender {
   max-width: 900px;
   margin: 50px;
-  /* justify-content: space-around; */
 }
  
 .gender-blocks {
@@ -62,6 +61,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
 button {
   margin:30px 20px;
 }

@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TableInfo correctly 1`] = `
+Array [
+  <h3>
+    Speed Skating
+  </h3>,
+  <div
+    className="table-medal-first"
+  >
+    <p>
+      Medal table
+    </p>
+    <table
+      className="table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr>
+          <th>
+            Rank
+          </th>
+          <th
+            className="gold"
+          >
+            Golden
+          </th>
+          <th
+            className="silver"
+          >
+            Silver
+          </th>
+          <th
+            className="bronze"
+          >
+            Bronze
+          </th>
+          <th>
+            Total
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            7
+          </td>
+          <td>
+            8
+          </td>
+          <td>
+            23
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  <div
+    className="gender-blocks"
+  >
+    <div
+      className="table-medal-gender"
+    >
+      <p>
+        Men's events
+      </p>
+      <table
+        className="table table-striped table-bordered table-hover"
+      >
+        <thead>
+          <tr>
+            <th>
+              Event
+            </th>
+            <th
+              className="gold"
+            >
+              Golden
+            </th>
+            <th
+              className="silver"
+            >
+              Silver
+            </th>
+            <th
+              className="bronze"
+            >
+              Bronze
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              2 x 500m
+            </td>
+            <td>
+              Michel Mulder
+            </td>
+            <td>
+              Jan Smeekens
+            </td>
+            <td>
+              Ronald Mulder
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1000m
+            </td>
+            <td>
+              Stefan Groothuis
+            </td>
+            <td />
+            <td>
+              Michel Mulder
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1500m
+            </td>
+            <td />
+            <td>
+              Koen Verweij
+            </td>
+            <td />
+          </tr>
+          <tr>
+            <td>
+              5000m
+            </td>
+            <td>
+              Sven Kramer
+            </td>
+            <td>
+              Jan Blokhuijsen
+            </td>
+            <td>
+              Jorrit Bergsma
+            </td>
+          </tr>
+          <tr>
+            <td>
+              10000m
+            </td>
+            <td>
+              Jorrit Bergsma
+            </td>
+            <td>
+              Sven Kramer
+            </td>
+            <td>
+              Bob de Jong
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Team Pursuit 8 Laps
+            </td>
+            <td>
+              Netherlands
+            </td>
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="table-medal-gender"
+    >
+      <p>
+        Women's events
+      </p>
+      <table
+        className="table table-striped table-bordered table-hover"
+      >
+        <thead>
+          <tr>
+            <th>
+              Event
+            </th>
+            <th
+              className="gold"
+            >
+              Golden
+            </th>
+            <th
+              className="silver"
+            >
+              Silver
+            </th>
+            <th
+              className="bronze"
+            >
+              Bronze
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              2 x 500m
+            </td>
+            <td />
+            <td />
+            <td>
+              Margot Boer
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1000m
+            </td>
+            <td />
+            <td>
+              Ireen Wüst
+            </td>
+            <td>
+              Margot Boer
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1500m
+            </td>
+            <td>
+              Jorien ter Mors
+            </td>
+            <td>
+              Ireen Wüst
+            </td>
+            <td>
+              Lotte van Beek
+            </td>
+          </tr>
+          <tr>
+            <td>
+              3000m
+            </td>
+            <td>
+              Ireen Wüst
+            </td>
+            <td />
+            <td />
+          </tr>
+          <tr>
+            <td>
+              5000m
+            </td>
+            <td />
+            <td>
+              Ireen Wüst
+            </td>
+            <td>
+              Carien Kleibeuker
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Team Pursuit 6 Laps
+            </td>
+            <td>
+              Netherlands
+            </td>
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>,
+]
+`;
